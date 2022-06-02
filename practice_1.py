@@ -48,10 +48,10 @@ while(a< 100):
 abab_file = open("abab.txt", 'r')
 print(abab_file.read())
 b_count = 0
-for character in "abab.txt":
+for character in "abab_file":
     if (character == "b"):
         print ("B count is", b_count)
-    b_count = b_count + 1
+        b_count = b_count + 1
     
 abab_file.close()
 # Problem 4
