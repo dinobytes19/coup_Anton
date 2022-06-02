@@ -46,9 +46,9 @@ while(a< 100):
 # Don't forget to close the file when you're done!
 # Note: you're allowed to look at how the file was generated if you want
 abab_file = open("abab.txt", 'r')
-print(abab_file.read())
+
 b_count = 1
-for character in "abab_file.read()":
+for character in abab_file.read():
     if (character == "b"):
         print ("B count is", b_count)
         b_count = b_count + 1
